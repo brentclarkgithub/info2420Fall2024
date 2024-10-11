@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Rent A Pet - Home Page</title>
+
+<link href="mystyles.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="myscripts.js"></script>
+
+</head>
+
+<body  onload="preloadImages()">
+
+	<header>
+	
+		<a href="index.htm" onMouseOver="document.logo.src=logo2.src;"
+	onMouseOut="document.logo.src=logo1.src;">
+
+	<img src="images/logo1.jpg" width="175" height="175" 
+	name="logo" alt="logo" style="border:5px solid #003133;" class="logoleft"/>
+
+	</a>
+	
+		<img alt="banner" height="175" src="images/Banner.jpg" width="600" style="border:5px solid #003133;">
+		
+		
+		</header>
+
+
+	<section>
+	
+			<nav>
+		
+				<a href="home.htm">&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;</a><br>
+				<a href="aboutus.htm">About Us</a><br>
+				<a href="tributes.htm">&nbsp;Tributes&nbsp;</a><br>
+				<a href="favorites.htm">Favorites</a> <br>
+				<a href="survey.htm">&nbsp;&nbsp;Survey&nbsp;&nbsp;</a></nav>
+	
+			<article>
+		
+			<h1>Welcome to Rent A Pet!</h1>
+			
+				<p class="welcome">If you love to interact with pets like we do, you should enjoy looking around this site. 
+					Take a look at our Pet Profiles and take the opportunity to complete our survey.
+				</p>
+				
+				<h2 class="header">Photos of the Day</h2>
+				
+				<div id="thumbs">
+		<img src="Images/Thumbnails/Image1Sm.jpg" alt="Funny Pig" onmouseover="swapImage(0);" />
+		<img src="Images/Thumbnails/Image2Sm.jpg" alt="Cat and Dog" onmouseover="swapImage(1);" />
+		<img src="Images/Thumbnails/Image3Sm.jpg" alt="Parrot and Dog" onmouseover="swapImage(2);" />
+		<img src="Images/Thumbnails/Image4Sm.jpg" alt="Two Happy Dogs" onmouseover="swapImage(3);" />
+		
+</div>
+
+	<div id="image">
+
+		<img id="theImage" src="Images/FullSize/Image1Lg.jpg" alt="Black Pig" />
+		<h3 id="bottomText">Funny Pig</h3>
+	</div>
+	
+	
+	
+				<h2 class="header">What Our Customers Have Been Saying</h2>
+				
+				<img alt="Cute Dog" src="images/BassetHoundSM.jpg" class="auto-style1" width="193">
+				<p class="tribute">"My name is Bessie Anderson and I currently live in a retirement community that has a prohibition on pets. I really wanted to have a small dog 
+				that I could take out for walks..." <br>
+				<a href="tributes.htm">more...</a></p>
+
+		
+			</article>
+	
+	</section>
+	
+	<footer>
+	
+	<p>Contact Us By Email: <a href="mailto:10552420@my.uvu.edu">Ana Septon</a></p>
+	<p>This web site has been created solely for educational purposes</p>
+	
+	</footer>
+
+</body>
+
+</html>
